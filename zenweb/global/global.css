@@ -1,0 +1,65 @@
+
+body{
+    width: 100%;
+    background-color: aqua;
+    height: 1000px;
+
+}
+
+conter{
+    display: none;
+}
+
+section{
+ width: 100%;
+
+
+}
+
+article{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.funksjon1{
+    padding:20px;
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    font-size: 14rem;
+    color: purple;
+    background-color: blue;
+    border: dashed yellow 10px;
+    animation: colorChange 1s ease infinite;
+}
+
+
+@keyframes colorChange {
+    10% {color: blue;}
+    20% {color: red;}
+    30% {color: purple;}
+    40% {color: green;}
+    50% {color:cyan; }
+    60% {color:magenta;}
+  }
+
+  .showRandomEmoji{
+    padding-top: 100px;
+    margin: 100px;
+  }
+
+  .buttonemoji{
+    background-color: purple;
+    border: none;
+    font-size: 4rem;
+
+    
+  }
+
+  #emojiDisplay{
+    font-size: 4rem;
+  }
+
+  
+ 

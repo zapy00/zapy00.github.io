@@ -1,0 +1,14 @@
+
+body{
+    width: 100%;
+    animation: colorChange 1s ease infinite;
+}
+
+@keyframes colorChange {
+    10% {color: blue;}
+    20% {color: red;}
+    30% {color: purple;}
+    40% {color: green;}
+    50% {color:cyan; }
+    60% {color:magenta;}
+  }
